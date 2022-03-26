@@ -1,0 +1,11 @@
+﻿var A = new Base<int>();
+A.Add(1);
+A.Add(3);
+A.Add(5);
+A.Add(3);
+A.Add(2);
+A.Display();
+A.Remove(3);
+A.Remove(3);
+A.Remove(4);
+A.Display();
